@@ -179,7 +179,7 @@ class PrivateKey:
         '''Returns an implied coin if there is one, otherwise Bitcoin.'''
         return self._coin
 
-    def  is_compressed(self):
+    def is_compressed(self):
         '''Return true if the public key serializes to 33 bytes.'''
         return self._compressed
 
